@@ -28,7 +28,7 @@ section{
     color:rgb(0, 0, 0);
     padding:1rem;
     margin:2rem 0;
-    background:rgba(0, 0, 0, 0.05);
+    
 }
 
 .heading span{
@@ -49,6 +49,7 @@ section{
 .btn:hover{
     background:var(--green);
 }
+
 header{
     position: fixed;
     top:0; left:0; right:0;
@@ -97,11 +98,7 @@ header .icons a:hover{
     min-height: 100vh;
     background:url(../images/f1.png) no-repeat ;
     background-size: 30%;
-    background-position: 800px 130px ;
-    
-    
-    
-}
+    background-position: 800px 130px ;}
 
 .home .content{
     max-width: 40rem;
@@ -116,16 +113,18 @@ header .icons a:hover{
     text-decoration: none;
     padding: 18px 50px;
     border-radius: 30px;
-    background: #add149;
+    background: #000000;
     display: inline-block;
-    color: #000;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: medium;
     margin-top: 10px;
     box-shadow: 5px 8px 10px rgb(0, 0, 0, 0.1);
 
 }
-
+.home .content a:hover{
+    background: var(--green);
+}
 
 .about .row{
     display: flex;
@@ -245,7 +244,7 @@ header .icons a:hover{
     line-height: 5rem;
     font-size: 2rem;
     width:50%;
-    background:var(--green);
+    background: #000;
     color:#fff;
 }
 
@@ -256,7 +255,7 @@ header .icons a:hover{
 }
 
 .dishes .box-container .box .image .icons a:hover{
-    background:rgb(0, 0, 0);
+    background:var(--green);
 }
 
 .dishes .box-container .box .content{
@@ -368,6 +367,7 @@ header .icons a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    
 }
 
 .footer .box-container .box{
@@ -410,6 +410,12 @@ header .icons a:hover{
 .footer .credit span{
     color:var(--green);
 }
+.name{
+    text-align: center;
+    color: #999898;
+    font-size: small;
+    padding-bottom: 15px;
+}
 @media (max-width:991px){
     
     html{
@@ -419,13 +425,14 @@ header .icons a:hover{
     header{
         padding:2rem;
     }
+    
 
     section{
         padding:2rem;
     }
 
     .home{
-        background-position: left;
+        background-position: right;
     }
 
 }
@@ -455,10 +462,6 @@ header .icons a:hover{
         font-size: 5rem;
     }
 
-    .home .content span{
-        font-size: 2.5rem;
-    }
-
     .icons-container .icons h3{
         font-size: 2rem;
     }
@@ -466,6 +469,7 @@ header .icons a:hover{
     .icons-container .icons span{
         font-size: 1.7rem;
     }
+
     
 }
 
