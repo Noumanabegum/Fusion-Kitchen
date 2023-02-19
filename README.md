@@ -1,2 +1,2 @@
 # Fusion_Kitchen
-This file contains a food delivery website.
+This folder contains a food delivery website. It consists of HTMl and CSS codes.
