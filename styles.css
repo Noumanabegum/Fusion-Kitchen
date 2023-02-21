@@ -18,23 +18,20 @@ html{
     overflow-x: hidden;
 }
 
+/* Header styles */
 section{
     padding:2rem 9%;
 }
-
 .heading{
     text-align: center;
     font-size: 4rem;
     color:rgb(0, 0, 0);
     padding:1rem;
-    margin:2rem 0;
-    
+    margin:2rem 0;   
 }
-
 .heading span{
     color:var(--green);
 }
-
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -45,11 +42,9 @@ section{
     cursor: pointer;
     font-size: 1.7rem;
 }
-
 .btn:hover{
     background:var(--green);
 }
-
 header{
     position: fixed;
     top:0; left:0; right:0;
@@ -61,54 +56,48 @@ header{
     z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
-
 header .logo{
     font-size: 3rem;
     color:rgb(0, 0, 0);
     font-weight: bolder;
 }
-
 header .logo span{
     color:var(--green);
 }
-
 header .navbar a{
     font-size: 2rem;
     padding:0 1.5rem;
     color:rgb(0, 0, 0);
 }
-
 header .navbar a:hover{
     color:var(--green);
 }
-
 header .icons a{
     font-size: 2.5rem;
     color:rgb(0, 0, 0);
     margin-left: 1.5rem;
 }
-
 header .icons a:hover{
     color:var(--green);
 }
+/*.Header styles */
 
+/* Home styles */
 .home{
     display: flex;
     align-items: center;
     min-height: 100vh;
     background:url(../images/f1.png) no-repeat ;
     background-size: 30%;
-    background-position: 800px 130px ;}
-
+    background-position: 800px 130px ;
+}
 .home .content{
     max-width: 40rem;
 }
-
 .home .content h3{
     font-size: 3rem;
     color:rgb(0, 0, 0);
 }
-
 .home .content a{
     text-decoration: none;
     padding: 18px 50px;
@@ -120,12 +109,13 @@ header .icons a:hover{
     font-size: medium;
     margin-top: 10px;
     box-shadow: 5px 8px 10px rgb(0, 0, 0, 0.1);
-
 }
 .home .content a:hover{
     background: var(--green);
 }
+/*.Home styles */
 
+/* About us styles */
 .about .row{
     display: flex;
     align-items: center;
@@ -134,12 +124,10 @@ header .icons a:hover{
     padding:2rem 0;
     padding-bottom: 3rem;
 }
-
 .about .row .video-container{
     flex:1 1 40rem;
     position: relative;
 }
-
 .about .row .video-container video{
     width:100%;
     border:1.5rem solid #fff;
@@ -151,12 +139,10 @@ header .icons a:hover{
 .about .row .content{
     flex:1 1 40rem;
 }
-
 .about .row .content h3{
     font-size: 3rem;
     color:rgb(0, 0, 0);
 }
-
 .about .row .content p{
     font-size: 1.5rem;
     color:rgb(0, 0, 0);
@@ -164,7 +150,9 @@ header .icons a:hover{
     padding-top: 1rem;
     line-height: 1.5;
 }
+/*.About us styles */
 
+/* Icons styles */
 .icons-container{
     background:#eee;
     display: flex;
@@ -173,7 +161,6 @@ header .icons a:hover{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-
 .icons-container .icons{
     background:#fff;
     border:.1rem solid rgba(0,0,0,.1);
@@ -182,29 +169,27 @@ header .icons a:hover{
     align-items: center;
     flex:1 1 25rem;
 }
-
 .icons-container .icons img{
     height:5rem;
     margin-right: 2rem;
 }
-
 .icons-container .icons h3{
     color:rgb(0, 0, 0);
     padding-bottom: .5rem;
     font-size: 1.5rem;
 }
-
 .icons-container .icons span{
     color:rgb(0, 0, 0);
     font-size: 1.3rem;
 }
+/*.Icons styles */
 
+/* Dishes styles */
 .dishes .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
-
 .dishes .box-container .box{
     flex:1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -212,33 +197,26 @@ header .icons a:hover{
     border:.1rem solid rgba(0,0,0,.1);
     position: relative;    
 }
-
-
 .dishes .box-container .box .image{
     position: relative;
     text-align: center;
     padding-top: 2rem;
     overflow:hidden;
 }
-
 .dishes .box-container .box .image img{
     height:25rem;
 }
-
 .dishes .box-container .box:hover .image img{
     transform: scale(1.1);
 }
-
 .dishes .box-container .box .image .icons{
     position: absolute;
     bottom:-7rem; left:0; right:0;
     display: flex;
 }
-
 .dishes .box-container .box:hover .image .icons{
     bottom:0;
 }
-
 .dishes .box-container .box .image .icons a{
     height: 5rem;
     line-height: 5rem;
@@ -247,22 +225,18 @@ header .icons a:hover{
     background: #000;
     color:#fff;
 }
-
 .dishes .box-container .box .image .icons .cart-btn{
     border-left: .1rem solid #fff7;
     border-right: .1rem solid #fff7;
     width:100%;
 }
-
 .dishes .box-container .box .image .icons a:hover{
     background:var(--green);
 }
-
 .dishes .box-container .box .content{
     padding:2rem;
     text-align: center;
 }
-
 .dishes .box-container .box .content h3{
     font-size: 2.5rem;
     color:rgb(0, 0, 0);
@@ -273,12 +247,14 @@ header .icons a:hover{
     font-weight: bolder;
     padding-top: 1rem;
 }
+/*.Dishes styles */
+
+/* Review styles */
 .review .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
-
 .review .box-container .box{
     flex:1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -287,20 +263,17 @@ header .icons a:hover{
     position: relative;
     border:.1rem solid rgba(0,0,0,.1);
 }
-
 .review .box-container .box p{
     color:rgb(0, 0, 0);
     font-size: 1.5rem;
     line-height: 1.5;
     padding-top: 2rem;
 }
-
 .review .box-container .box .user{
     display: flex;
     align-items: center;
     padding-top: 2rem;
 }
-
 .review .box-container .box .user img{
     height:6rem;
     width:6rem;
@@ -308,24 +281,23 @@ header .icons a:hover{
     object-fit: cover;
     margin-right: 1rem;
 }
-
 .review .box-container .box .user h3{
     font-size: 2rem;
     color:rgb(0, 0, 0);
 }
-
 .review .box-container .box .user span{
     font-size: 1.5rem;
     color:rgb(0, 0, 0);
 }
+/*.Review styles */
 
+/* Contact styles */
 .contact .row{
     display: flex;
     flex-wrap: wrap-reverse;
     gap:1.5rem;
     align-items: center;
 }
-
 .contact .row form{
     flex:1 1 40rem;
     padding:2rem 2.5rem;
@@ -334,15 +306,12 @@ header .icons a:hover{
     background: #fff;
     border-radius: .5rem;
 }
-
 .contact .row .image{
     flex:1 1 40rem;
 }
-
 .contact .row .image img{
     width: 100%;
 }
-
 .contact .row form .box{
     padding:1rem;
     font-size: 1.7rem;
@@ -353,49 +322,42 @@ header .icons a:hover{
     margin:.7rem 0;
     width: 100%;
 }
-
 .contact .row form .box:focus{
     border-color: var(--green);
 }
-
 .contact .row form textarea{
     height: 15rem;
     resize: none;
 }
+/*.Contact styles */
 
+/* Footer styles */
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
-    
+    gap:1.5rem;   
 }
-
 .footer .box-container .box{
     flex:1 1 25rem;
 }
-
 .footer .box-container .box h3{
     color:rgb(0, 0, 0);
     font-size: 2.5rem;
     padding:1rem 0;
 }
-
 .footer .box-container .box a{
     display: block;
     color:rgb(0, 0, 0);
     font-size: 1.5rem;
     padding:1rem 0;
 }
-
 .footer .box-container .box a:hover{
     color:var(--green);
     text-decoration: underline;
 }
-
 .footer .box-container .box  img{
     margin-top: 1rem;
 }
-
 .footer .credit{
     text-align: center;
     padding:1.5rem;
@@ -406,7 +368,6 @@ header .icons a:hover{
     border-top: .1rem solid rgba(0,0,0,.1);
     padding-bottom: 9rem;
 }
-
 .footer .credit span{
     color:var(--green);
 }
@@ -416,6 +377,9 @@ header .icons a:hover{
     font-size: small;
     padding-bottom: 15px;
 }
+/*.Footer styles */
+
+/* Making the page responsive */
 @media (max-width:991px){
     
     html{
