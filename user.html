@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User Login</title>
+	<link rel="stylesheet" href="./user.css">
+</head>
+<body>
+	
+	<div class="container">
+		<h1 class="label"><span>User</span> Login</h1>
+		<form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please fill up your Password</div>
+			<button type="submit">Login</button>
+		</form>
+	</div>	
+	<script src="./user.js"></script>
+</body>
+</html>
