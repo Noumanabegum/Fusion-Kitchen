@@ -22,25 +22,25 @@ To access the website, simply open a web browser and enter the URL for the websi
 ## Screenshots :
 
 ### Home 
-![App Screenshot](https://github.com/Noumanabegum/Fusion_Kitchen/blob/master/screenshots/home.jpg?raw=true)
+![App Screenshot](https://github.com/Noumanabegum/Fusion-Kitchen/blob/master/screenshots/home.jpg?raw=true)
 
 ### About 
-![App Screenshot](https://github.com/Noumanabegum/Fusion_Kitchen/blob/master/screenshots/about.jpg?raw=true)
+![App Screenshot](https://github.com/Noumanabegum/Fusion-Kitchen/blob/master/screenshots/about.jpg?raw=true)
 
 ### Dishes 
-![App Screenshot](https://github.com/Noumanabegum/Fusion_Kitchen/blob/master/screenshots/dishes.jpg?raw=true)
+![App Screenshot](https://github.com/Noumanabegum/Fusion-Kitchen/blob/master/screenshots/dishes.jpg?raw=true)
 
 ### Review 
-![App Screenshot](https://github.com/Noumanabegum/Fusion_Kitchen/blob/master/screenshots/review.jpg?raw=true)
+![App Screenshot](https://github.com/Noumanabegum/Fusion-Kitchen/blob/master/screenshots/review.jpg?raw=true)
 
 ### Contact 
-![App Screenshot](https://github.com/Noumanabegum/Fusion_Kitchen/blob/master/screenshots/contact.jpg?raw=true)
+![App Screenshot](https://github.com/Noumanabegum/Fusion-Kitchen/blob/master/screenshots/contact.jpg?raw=true)
 
 ## Demo :
 Watch Video - https://www.loom.com/share/426cea5b8ced4b53a7dd0525f2de82c9
 
 ## How to use :
-* Clone the repository to your local machine using the command "git clone https://github.com/Noumanabegum/Fusion_Kitchen.git".
+* Clone the repository to your local machine using the command "git clone https://github.com/Noumanabegum/Fusion-Kitchen.git".
 * Open the "index.html" file in your browser.
 
 ## Contributing :
